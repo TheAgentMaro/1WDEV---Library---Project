@@ -1,0 +1,257 @@
+/* section padding */
+.page-section {
+    padding: 6rem 0;
+  }
+  /* Titre 1 position + police  */
+  .page-section h2.section-h2, .page-section .section-h2.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+    /* Titre 2 position + police  */
+  .page-section h3.section-h3, .page-section .section-h3.h3 {
+    font-size: 1.5rem;
+    font-weight: 400;
+    font-style: italic;
+    font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    margin-bottom: 4rem;
+  }
+
+  /* positioné la liste et enlever la décoration */
+  .list {
+    position: relative;
+    padding: 0;
+    list-style: none
+  }
+  
+  
+  /* Les images position avec l'ombre blue en background */
+  .list>li .joint {
+    position: absolute;
+    /* img en devant */
+    z-index: 1;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: #fff;
+    border: 7px solid rgba(0, 174, 255, 0.534);
+    /* rendre background cercle */
+    border-radius: 100%;
+    background-color:  #e9ecef;
+    box-shadow: 1px 5px 45px 10px rgba(0, 174, 255, 0.534);
+    
+  }
+
+  /*  1ére image style */
+    .list>li .joint {
+    position: absolute;
+    /* img en devant */
+    z-index: 1;
+    left: 0;
+    width: 80px;
+    height: 80px;
+    margin-left: 0;
+    text-align: center;
+    color: #fff;
+    border: 7px solid rgba(0, 174, 255, 0.534);
+    /* rendre background cercle */
+    border-radius: 100%;
+    background-color:  #e9ecef;
+    box-shadow: 1px 5px 40px 10px rgba(0, 174, 255, 0.534);
+    
+  }
+
+  /* changer l'effet pour la 1ére cercle */
+
+  .list>li .jaune {
+    /* rendre background cercle */
+    border: 7px solid #e9ecaf;
+    border-radius: 100%;
+    background-color:  #e9ecef;
+    box-shadow: 2px 5px 45px 20px #e9ecaf;
+  }
+
+
+  /* Titre Police + postion 'marg' + style */
+  .list>li .joint h4 {
+    font-size: 72px;
+    line-height: 20px;
+    margin-top: 12px;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+/* Position du titre */
+  .list .list-titre h4 {
+    margin-top: 0;
+    color: inherit;
+    text-align: left;
+  }
+
+  /* Position + police */
+  .list .list-body>p,
+  .list .list-body>ul {
+    margin-bottom: 0;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+  }
+
+  /* Lien vers Livre.html */
+  
+  .list .joint >a{
+    text-decoration: none;
+    color:white;
+  }
+  
+  /* Border round */
+  .rounded-circle {
+    border-radius: 50% 
+}
+  
+/* Libraire list responsive */
+
+@media (min-width:468px) {
+  .list:before {
+    left: 50%
+  }
+
+  .list>li {
+    min-height: 100px;
+    margin-bottom: 100px
+  }
+
+  .list>li .list-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right
+  }
+
+  .list>li .joint {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px
+  }
+  .list>li .joint>img{
+    height:80px
+  }
+
+  .list>li .joint .h4,
+  .list>li .joint h4 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 16px
+  }
+
+  .list>li.list-inverted>.list-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left
+  }
+}
+@media (min-width:768px) {
+  .list:before {
+    left: 50%
+  }
+
+  .list>li {
+    min-height: 100px;
+    margin-bottom: 100px
+  }
+
+  .list>li .list-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right
+  }
+
+  .list>li .joint {
+    left: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px
+  }
+  .list>li .joint>img{
+    height:80px
+  }
+
+  .list>li .joint .h4,
+  .list>li .joint h4 {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 16px
+  }
+
+  .list>li.list-inverted>.list-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left
+  }
+}
+
+@media (min-width:992px) {
+  .list>li {
+    min-height: 150px
+  }
+
+  .list>li .list-panel {
+    padding: 0 20px 20px
+  }
+
+  .list>li .joint {
+    width: 150px;
+    height: 150px;
+    margin-left: -75px
+  }
+
+  .list>li .joint>img{
+    height:155px
+  }
+
+  .list>li .joint .h4,
+  .list>li .joint h4 {
+    font-size: 18px;
+    line-height: 26px;
+    margin-top: 30px
+  }
+
+  .list>li.list-inverted>.list-panel {
+    padding: 0 20px 20px
+  }
+}
+
+@media (min-width:1200px) {
+  .list>li {
+    min-height: 170px
+  }
+
+  .list>li .list-panel {
+    padding: 0 20px 20px 100px
+  }
+
+  .list>li .joint {
+    width: 170px;
+    height: 170px;
+    margin-left: -85px
+  }
+  .list>li .joint>img{
+    height:155px
+  }
+
+  .list>li .joint .h4,
+  .list>li .joint h4 {
+    margin-top: 40px
+  }
+
+  .list>li.list-inverted>.list-panel {
+    padding: 0 100px 20px 20px
+  }
+}

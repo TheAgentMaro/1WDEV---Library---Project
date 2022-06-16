@@ -1,0 +1,94 @@
+/* Tous les styles du butons içi */
+
+.Button {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.Button:hover {
+  color: #212529
+}
+
+.Button:focus {
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(0, 81, 255, .25)
+}
+
+.Button-primary {
+  color: #fff;
+  background-color: #2a83b6;
+  border-color: #2a83b6;
+  border-radius: 50px;
+}
+
+.Button-primary:hover {
+  color: #fff;
+  background-color: #2a83b6;
+  border-color: #2a83b6
+}
+
+.Button-primary:focus {
+  color: #fff;
+  background-color: #2a83b6;
+  border-color: #2a83b6;
+  box-shadow: 0 0 0 .25rem rgba(52, 147, 255, .5)
+}
+
+
+.Button-primary:active:focus {
+  box-shadow: 0 0 0 .25rem rgba(38, 96, 255, .5)
+}
+
+.Button-primary:disabled {
+  color: #fff;
+  background-color: #2a83b6;
+  border-color: #2a83b6
+}
+
+
+
+/* À propos de nous */
+.Button-xl {
+  padding: 1.25rem 2.5rem;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 700
+}
+
+/* Réseaux sociaux */
+.Button-social {
+  height: 2.5rem;
+  width: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  border-radius: 100%
+}
+.Button-dark {
+  color: #fff;
+  background-color: #212529;
+  border-color: #212529
+}
+
+.Button-dark:hover {
+  color: #fff;
+  background-color: #1c1f23;
+  border-color: #1a1e21
+}

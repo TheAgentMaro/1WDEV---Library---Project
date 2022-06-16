@@ -1,0 +1,43 @@
+/* section padding */
+
+.page-section {
+    padding: 6rem 0;
+  }
+    /* Titre 1 position + police  */
+  .page-section h2.section-heading, .page-section .section-heading.h2 {
+    font-size: 2.5rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    background: linear-gradient(to right, #30CFD0 0%, #330867 80%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+  }
+/* position en milieu */
+  .team-member {
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  /* Mon image */
+  .team-member img {
+
+    /* glow effect */
+    box-shadow: 
+    0px 10px 5px #005AA7,  /*haut*/
+     0px -10px 5px #005AA7, /*bas*/
+    -10px 0 20px 10px #e9ecaf, /*droite*/
+     10px 0 20px 10px #e9ecaf; /*gauche*/
+  }
+     /* Titre  position   */
+  .team-member h4, .team-member .h4 {
+    margin-top: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  /* Border round */
+  .cercle {
+    /* rendre comme une cercle */
+    border-radius: 50%;
+  }
+
+  

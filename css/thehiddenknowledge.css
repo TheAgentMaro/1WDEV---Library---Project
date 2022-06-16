@@ -1,0 +1,193 @@
+/* Header Style + position */
+header.titres {
+  padding-top: 10.5rem;
+  padding-bottom: 23rem;
+  text-align: center;
+  color: #fff;
+  
+  /* cover photo en arriére-plan */
+  background-image: url("../img/617e8c147827f.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+
+/* text n1 "Bienvenue dans notre librairie !" */
+
+header.titres .titres-h2 {
+  font-size: 2.25rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: 'Carattere', cursive;
+}
+
+/* text n2 "The Hidden Knowledge" */
+
+header.titres .titres-h1 {
+  font-size: 3.50rem;
+  line-height: 3.50rem;
+  margin-bottom: 2rem;
+  font-family: 'Righteous', cursive;
+  text-transform: uppercase;
+  background: linear-gradient(to right, #30CFD0 0%, #330867 80%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* 3 articles */
+.area1 {
+  box-shadow:
+  20px 5px 40px #005AA7,
+  0px 5px 40px #FFFDE4,
+  -20px 5px 40px #e7e9bb;
+  background-image: linear-gradient(-90deg, #FFFDE4 0%, #005AA7 47%, #e7e9bb 100%);  
+  border-bottom: 10px solid #6fb3e0;
+  padding: 70px 0 0;
+  position:relative;
+  overflow:hidden;
+}
+
+/* Artice padding position */
+.article {
+  padding: 15px;
+}
+
+/* article bordure style  */
+.art{
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  border-radius: 20px;
+  background-color:rgba(255, 255, 255, 0.877);
+}
+
+
+/* Images Styles */
+.slide-holder>img
+{
+	border-radius: 20px;
+  /* fit image in box */
+  margin-top: 0;
+}
+
+/* List Style (position) */
+.list {
+  margin: 0 0 0 15px;
+  padding: 28px 0;
+  list-style: none;
+}
+ 
+/* List padding position */
+.list li {
+    padding: 0 0 29px; }
+
+/* Les styles des titres */
+.list h3 {
+    margin: 0 0 10px;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+    color: rgb(59, 58, 58); }
+
+/* les styles du paragraphes */
+.list p {
+    margin: 0 0 15px;
+    color: rgb(22, 19, 19);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.10rem;
+   }
+
+
+/* Abonnement par email + Button*/
+.area2 {
+  padding: 80px 0 80px;
+  background: #f4f4f4;
+  border-bottom: 10px solid #6fb3e0;
+  padding: 77px 0 47px;
+  background: #f4f4f4;    border-bottom: 10px solid #6fb3e0;
+  display: flex;
+}
+
+/* Position en milieu */
+.subscribe {
+  text-align: center;
+  margin: 2px 0 0;
+}
+
+/* Titre style + position */
+.subscribe h3 {
+  font-size: 3rem;
+  line-height: 1.4;
+  font-weight: bold;
+  color: #1b7eff;
+}
+
+/* Rendre email input à coté du bouton */
+.subscribe .form-group {
+  overflow: hidden;
+}
+
+/* Email input + police d'ecriture */
+.subscribe .form-control {
+  min-width: 350px;
+  font-size: 1.2rem;
+  height: 45px;
+  line-height: 20px;
+  border: 0;
+  outline: none;
+  border-radius: 50px;
+}
+
+/* Button position + style*/
+.subscribe .Button{
+  float: right;
+  height: 42px;
+  font-size: 1.3rem;
+  line-height: 20px;
+  padding: 10px 35px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 0 -20px;
+  border-radius:2em;
+}
+
+/* rendre Input Email et Button côte à côte */
+
+.subscribe .form-inline {
+display: inline-block;
+}
+
+
+/* Responsive */
+
+@media (min-width: 768px) {
+  header.titres {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  header.titres .titres-h2 {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  header.titres .titres-h1 {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+
+/* Responsive */
+@media (min-width:768px) {
+
+  .cote1 {
+    flex: 0 0 auto;
+    width: 41.66666667%
+  }
+  .cote2 {
+    flex: 0 0 auto;
+    width: 58.33333333%
+  }
+}
